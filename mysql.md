@@ -4,7 +4,7 @@
 
 [常用技巧](#常用技巧)
 
-[与PHP结合](#与PHP结合)
+[与脚本结合](#与脚本结合)
 
 ##命令总结
     环境：windows 7, xampp ,phpstrom
@@ -26,7 +26,7 @@ DROP DATABASES IF EXISTS `databasename`;
 *   `AUTO_INCREMENT` `NOT NULL` `PRIMARY KEY` `DEFAULT '默认值'` 
 *   缓冲和无缓冲查询
 
-##与PHP结合
+##与脚本结合
         NOTE：使用错误处理机制；
 *   （面向对象）连接：`$conn = mysqli_connect("localhost", "root", "password", "databasename");`
 
